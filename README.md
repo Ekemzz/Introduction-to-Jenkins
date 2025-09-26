@@ -38,6 +38,53 @@ Lets install Jenkins and set the server to handle automations.
    <img width="954" height="451" alt="image" src="https://github.com/user-attachments/assets/f6e3a135-1f60-4de8-a93f-ee1af05e7db1" />
 
 
+   Before proceeding to use jenkins, you would have to intergrate a desired SCM with Jenkins. in this case, we choose github.
+   <img width="952" height="318" alt="image" src="https://github.com/user-attachments/assets/f41d628b-e5ef-42cf-a105-fe12d375c006" />
+   <img width="940" height="430" alt="image" src="https://github.com/user-attachments/assets/600b7e08-ed8c-4bb9-ae01-092468d99c0a" />
+   <img width="714" height="346" alt="image" src="https://github.com/user-attachments/assets/5363c1fb-8e4d-4ce5-802b-00c3bbfae219" />
+   <img width="935" height="431" alt="image" src="https://github.com/user-attachments/assets/8640397d-501d-452e-9dc2-20a67c522eb5" />
+   <img width="959" height="445" alt="image" src="https://github.com/user-attachments/assets/cec2a092-e40f-4ddc-a72a-7f9d3f81b935" />
+   <img width="944" height="440" alt="image" src="https://github.com/user-attachments/assets/d118190d-e6c5-4813-ae2b-17c094d19221" />
+   <img width="655" height="323" alt="image" src="https://github.com/user-attachments/assets/131adbf6-3402-490b-a70b-83052b2a4d03" />
+   <img width="696" height="349" alt="image" src="https://github.com/user-attachments/assets/17efff96-0f6f-47a8-abce-f29c89f8ccd9" />
+   <img width="951" height="379" alt="image" src="https://github.com/user-attachments/assets/9c633ab4-a900-47a2-a4e3-f98556129663" />
+   <img width="959" height="433" alt="image" src="https://github.com/user-attachments/assets/247bf97c-b638-4ecf-b94d-c9f4a5a72834" />
+   <img width="959" height="428" alt="image" src="https://github.com/user-attachments/assets/cd3b3a0f-b58a-4ec1-afb0-0f1f97dbcd80" />
+   <img width="958" height="430" alt="image" src="https://github.com/user-attachments/assets/e6b11ef3-2cd5-48e4-8ff1-112dc04d6c86" />
+   <img width="956" height="442" alt="image" src="https://github.com/user-attachments/assets/396ad65c-db26-48fe-9566-4fde7191dab3" />
+   <img width="955" height="431" alt="image" src="https://github.com/user-attachments/assets/819aadf2-1283-4309-aef6-5165e370c697" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Create and Run a Freestyle Job.
+   i. Log into Jenkins → Dashboard → New Item. Choose Freestyle Project, give it a name (my-first-job).
+
+  ii. In the configuration:
+      Add a description.
+      Under Source Code Management (SCM) → select Git.
+      Enter your repo URL (e.g., GitHub HTTPS/SSH).
+      Provide credentials if private.
+      Under Build Triggers → choose “Build periodically” or “Poll SCM” if you want automation.
+     Under Build → add a simple command (like echo "Hello Jenkins").
+  iii. Save and Build Now.
+   Check the console output to verify success.
+   
+Below are the images with the demo
+<img width="944" height="470" alt="image" src="https://github.com/user-attachments/assets/f783f54a-8cb1-424c-ac7c-4b92b70e0b2d" />
+<img width="945" height="436" alt="image" src="https://github.com/user-attachments/assets/2c638064-4627-4575-96f5-f2ba3f53c7db" />
+<img width="956" height="439" alt="image" src="https://github.com/user-attachments/assets/bddf89d1-1a25-416b-95f0-a950ec1d6554" />
+<img width="949" height="440" alt="image" src="https://github.com/user-attachments/assets/70fd78ec-8445-40e0-9f88-9dc8c504cf91" />
 
 
 
